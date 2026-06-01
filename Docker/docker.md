@@ -83,3 +83,15 @@ Docker is needed to:
 # 🧠 One-Line Answer (for Interview)
 
 Docker is an open-source platform that uses containerization to package applications and their dependencies, ensuring they run consistently across different environments.
+
+
+
+# Virtual Machine 
+A Virtual Machine is a software-based system that runs a complete operating system on top of a physical machine using a hypervisor, enabling multiple OS environments on a single system.
+
+* VMs act like separate computers inside a physical machine.
+* Each VM runs its own operating system and applications independently.
+* VMs are created and managed using virtualization software (hypervisors).
+* Each VMs has its own CPU, memory, storage, and OS, which makes it heavier compared to containers.
+
+
