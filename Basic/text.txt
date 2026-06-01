@@ -1,7 +1,0 @@
-1. What is Devops ? Why Developers need it ?
-Devops is a way of building and operating software where development
-and operations work together.
-
-It is a not tool , but a culture , practice and workflow.
-
-
