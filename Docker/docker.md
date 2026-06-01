@@ -362,3 +362,63 @@ Only changes are stored in new layers
 ## 🎯 Interview One-Line Answer
 
 Docker image layers are read-only stacked components created from each Dockerfile instruction, which together form a complete image and enable caching and efficient builds.
+
+
+
+# 🐳 What is Docker Registry?
+
+A Docker Registry is a **storage and distribution system for Docker images**.
+
+It allows you to:
+
+* Store Docker images
+* Share images with others
+* Pull images when needed
+
+---
+
+## 📦 Simple Definition
+
+Docker Registry is a place where Docker images are **stored and managed**.
+
+---
+
+## 🌍 Types of Docker Registry
+
+### 🌐 1. Public Registry
+
+* Anyone can access images
+* Example: Docker Hub
+
+---
+
+### 🔒 2. Private Registry
+
+* Access is restricted
+* Used by companies for security
+
+---
+
+## 🔄 How It Works
+
+1. You build a Docker image
+2. You push it to a registry
+3. Other developers pull the image
+4. They run containers from it
+
+---
+
+## 📌 Common Commands
+
+```bash
+docker push username/image-name
+docker pull username/image-name
+```
+
+---
+
+## 🎯 Interview One-Line Answer
+
+A Docker Registry is a storage system used to store, manage, and distribute Docker images so they can be shared and deployed easily.
+
+
