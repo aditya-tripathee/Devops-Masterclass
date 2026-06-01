@@ -97,3 +97,23 @@ A Virtual Machine is a software-based system that runs a complete operating syst
 * Each VMs has its own CPU, memory, storage, and OS, which makes it heavier compared to containers.
 
 
+# Better version:
+
+In a Virtual Machine, we run a complete operating system, while in Docker, containers run on the host OS using the Docker Engine.
+
+# 🧠 Simple Explanation
+# 🖥️ Virtual Machine (VM)
+* Runs a full OS inside
+* Needs:
+* OS
+* Libraries
+* App
+* 👉 Heavy and slower
+
+# 🐳 Docker
+* Does NOT run a full OS
+* Uses host OS kernel
+* Needs:
+* Docker Engine
+* App + dependencies
+* 👉 Lightweight and fast
