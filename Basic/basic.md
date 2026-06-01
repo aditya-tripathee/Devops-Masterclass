@@ -75,11 +75,11 @@ with automation to deliver software faster and more reliably.**
 
 
 Devops make the entire flow automated , predictable , and monitored.
-. Automation relplaces the manual work
-. Shared ownership
-. Containers eliminate "works on my machine"
-. Consistent works 
-. Faster releases
-. IaC ensures infra is reproducible and stable 
+*  Automation relplaces the manual work
+*  Shared ownership
+*  Containers eliminate "works on my machine"
+*  Consistent works 
+*  Faster releases
+*  IaC ensures infra is reproducible and stable 
 
 
