@@ -92,6 +92,8 @@ A Virtual Machine is a software-based system that runs a complete operating syst
 * VMs act like separate computers inside a physical machine.
 * Each VM runs its own operating system and applications independently.
 * VMs are created and managed using virtualization software (hypervisors).
+
+# Problems of VMs
 * Each VMs has its own CPU, memory, storage, and OS, which makes it heavier compared to containers.
 
 
