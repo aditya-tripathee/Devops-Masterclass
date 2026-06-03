@@ -589,7 +589,17 @@ Docker Hub is a platform used to **upload (push) and download (pull) Docker imag
 
 
 
-<!-- Docker Commands  -->
+# 🐳 What is Docker Compose?
+
+Docker Compose is a tool used to run and manage multiple Docker containers together using a single configuration file.
+
+💡 Simple Definition
+
+👉 Docker Compose helps you define and run multi-container applications (like frontend + backend + database) with one command.
+
+
+
+# Docker Commands 
 
 * docker --version 
 It displays the currently installed version of Docker on your system.
@@ -599,15 +609,6 @@ Displays detailed information about your Docker environment (system-wide details
 
 * docker compose version 
 This command shows the installed version of Docker Compose (v2) on your system.
-
-# 🐳 What is Docker Compose?
-
-Docker Compose is a tool used to run and manage multiple Docker containers together using a single configuration file.
-
-💡 Simple Definition
-
-👉 Docker Compose helps you define and run multi-container applications (like frontend + backend + database) with one command.
-
 
 * docker run hello-world
 This command is used to test whether Docker is installed and working correctly.
