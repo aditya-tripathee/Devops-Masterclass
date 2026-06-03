@@ -422,3 +422,194 @@ docker pull username/image-name
 A Docker Registry is a storage system used to store, manage, and distribute Docker images so they can be shared and deployed easily.
 
 
+# 🐳 What is `docker tag`?
+
+The `docker tag` command is used to **assign a new name or version (tag)** to an existing Docker image.
+
+---
+
+## 📦 Simple Definition
+
+`docker tag` is used to **rename an image or prepare it for pushing to a registry**.
+
+---
+
+## ⚙️ Syntax
+
+```bash
+docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+```
+
+---
+
+## 🧠 Example
+
+```bash
+docker tag my-app:latest username/my-app:1.0
+```
+
+---
+
+## 🔍 What This Means
+
+* `my-app:latest` → your local image
+* `username/my-app:1.0` → new name (for Docker Hub)
+
+---
+
+## 🚀 Why We Use `docker tag`
+
+### ✅ 1. Versioning
+
+You can create versions like:
+
+* `v1`
+* `v2`
+* `latest`
+
+---
+
+### ✅ 2. Push to Docker Registry
+
+Before pushing to Docker Hub, image must have:
+
+```bash
+username/image-name
+```
+
+---
+
+### ✅ 3. Organizing Images
+
+Helps manage multiple images easily
+
+---
+
+## 🔄 Workflow Example
+
+```bash
+docker build -t my-app .
+docker tag my-app username/my-app:1.0
+docker push username/my-app:1.0
+```
+
+---
+
+## 🎯 Interview One-Line Answer
+
+`docker tag` is used to assign a new name or version to a Docker image, commonly used before pushing the image to a registry.
+
+
+
+
+
+# 🐳 What is Docker Engine?
+
+Docker Engine is the **core component of Docker** that is responsible for building, running, and managing containers.
+
+---
+
+## 📦 Simple Definition
+
+Docker Engine is the **software that runs and manages Docker containers**.
+
+---
+
+## ⚙️ Main Components of Docker Engine
+
+### 🔹 1. Docker Daemon (`dockerd`)
+
+* Runs in the background
+* Manages containers, images, networks
+
+---
+
+### 🔹 2. Docker CLI (Command Line Interface)
+
+* Used by users to interact with Docker
+* Example commands:
+
+  ```bash
+  docker build
+  docker run
+  docker pull
+  ```
+
+---
+
+### 🔹 3. REST API
+
+* Allows communication between CLI and Docker Daemon
+* Used by tools and automation systems
+
+---
+
+## 🔄 How It Works
+
+1. You run a command (`docker run`)
+2. CLI sends request to Docker Daemon
+3. Daemon processes it
+4. Container is created and started
+
+---
+
+## 🎯 Interview One-Line Answer
+
+Docker Engine is the core runtime that builds, runs, and manages Docker containers using the Docker daemon, CLI, and REST API.
+
+---
+
+## 🧠 Easy Understanding
+
+👉 Docker Engine = Brain of Docker
+👉 It controls everything behind the scenes
+
+---
+
+## 🔥 Key Points
+
+* Runs containers
+* Manages images
+* Handles networking and storage
+* Works in background
+
+
+
+
+
+# 🐳 What is Docker Hub?
+
+Docker Hub is a **cloud-based public registry** where you can store, manage, and share Docker images.
+
+---
+
+## 📦 Simple Definition
+
+Docker Hub is a platform used to **upload (push) and download (pull) Docker images**.
+
+
+
+<!-- Docker Commands  -->
+
+* docker --version 
+It displays the currently installed version of Docker on your system.
+
+* docker info
+Displays detailed information about your Docker environment (system-wide details).
+
+* docker compose version 
+This command shows the installed version of Docker Compose (v2) on your system.
+
+# 🐳 What is Docker Compose?
+
+Docker Compose is a tool used to run and manage multiple Docker containers together using a single configuration file.
+
+💡 Simple Definition
+
+👉 Docker Compose helps you define and run multi-container applications (like frontend + backend + database) with one command.
+
+
+* docker run hello-world
+This command is used to test whether Docker is installed and working correctly.
+
+
