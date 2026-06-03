@@ -22,4 +22,8 @@ It shows a list of currently running containers on our system.
 # docker ps -a
 IT shows all containers on our system which is currently running , stopped or exited.
 
-# 
+# docker run -p 8080:80 nginx 
+* Port mapping allows us to access a service running inside a Docker container from the host machine.
+* -p means Port 
+* The -p flag is used to map a host port to a container port, allowing external access to services running inside Docker containers
+* In Docker, port mapping allows us to access services running inside a container from the host machine. For example, in docker run -p 8080:80 nginx, the NGINX server runs on port 80 inside the container, and we map it to port 8080 on the host, so it can be accessed externally
