@@ -115,3 +115,9 @@ This commands give all currently running conatiner id
 
 # docker images -aq 
 This commands give all images 
+
+# docker build -t tagname .
+This comamnds helps to build the docker images from current folder with proper tag name like ( docker build -t myapp . )
+
+# docker push username/docker_image_name
+This commands helps to push on docker hub
