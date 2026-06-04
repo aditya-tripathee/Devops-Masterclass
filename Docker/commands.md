@@ -103,3 +103,15 @@ Show me the logs of this container and keep updating them in real time.
 * docker exec -it helps you go inside a running container and run commands.
 
 
+# docker images
+It shows the all the iamges which is installed in system
+
+
+# docker container prune
+This commands will remove all the stopped conatiner from system 
+
+# docker ps -aq
+This commands give all currently running conatiner id
+
+# docker images -aq 
+This commands give all images 
